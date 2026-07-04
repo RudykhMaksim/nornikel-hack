@@ -1,0 +1,2117 @@
+{
+ "entities": [
+  {
+   "id": "mat_sulfate",
+   "type": "Material",
+   "name_ru": "Сульфаты",
+   "name_en": "Sulfates",
+   "aliases": [
+    "SO4",
+    "сульфат-ион",
+    "sulfate"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2026-01-15"
+  },
+  {
+   "id": "mat_chloride",
+   "type": "Material",
+   "name_ru": "Хлориды",
+   "name_en": "Chlorides",
+   "aliases": [
+    "Cl",
+    "хлорид-ион",
+    "chloride"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2026-01-15"
+  },
+  {
+   "id": "mat_calcium",
+   "type": "Material",
+   "name_ru": "Кальций",
+   "name_en": "Calcium",
+   "aliases": [
+    "Ca",
+    "Ca2+"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2026-01-15"
+  },
+  {
+   "id": "mat_magnesium",
+   "type": "Material",
+   "name_ru": "Магний",
+   "name_en": "Magnesium",
+   "aliases": [
+    "Mg",
+    "Mg2+"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2026-01-15"
+  },
+  {
+   "id": "mat_sodium",
+   "type": "Material",
+   "name_ru": "Натрий",
+   "name_en": "Sodium",
+   "aliases": [
+    "Na",
+    "Na+"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2026-01-15"
+  },
+  {
+   "id": "mat_mine_water",
+   "type": "Material",
+   "name_ru": "Шахтная/оборотная вода",
+   "name_en": "Mine / process water",
+   "aliases": [
+    "шахтные воды",
+    "оборотная вода",
+    "mine water",
+    "process water"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2026-01-15"
+  },
+  {
+   "id": "mat_gypsum",
+   "type": "Material",
+   "name_ru": "Гипс (сульфат кальция)",
+   "name_en": "Gypsum (calcium sulfate)",
+   "aliases": [
+    "гипс",
+    "CaSO4",
+    "gypsum"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "mat_copper_sulfate",
+   "type": "Material",
+   "name_ru": "Медный купорос",
+   "name_en": "Copper sulfate (blue vitriol)",
+   "aliases": [
+    "медный купорос",
+    "copper sulfate",
+    "blue vitriol",
+    "CuSO4"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2017-01-01"
+  },
+  {
+   "id": "mat_cathode_copper",
+   "type": "Material",
+   "name_ru": "Катодная медь",
+   "name_en": "Cathode copper",
+   "aliases": [
+    "катодная медь",
+    "cathode copper",
+    "медные порошки",
+    "copper powder"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2017-01-01"
+  },
+  {
+   "id": "std_gost_19347",
+   "type": "Standard",
+   "name_ru": "ГОСТ 19347 — медный купорос (с/х, промышленность, розница, экспорт)",
+   "name_en": "GOST 19347 — copper sulfate (agriculture, industry, retail, export)",
+   "aliases": [
+    "ГОСТ 19347"
+   ],
+   "geography": "RU",
+   "confidence": "verified",
+   "last_updated": "2017-01-01",
+   "description": "Российский стандарт на медный купорос для сельского хозяйства (напр. животноводство — строгие допуски по свинцу, кадмию), промышленности (искусственные волокна, красители, флотация руд), розничной торговли и экспорта."
+  },
+  {
+   "id": "std_gost_4165",
+   "type": "Standard",
+   "name_ru": "ГОСТ 4165 — медный купорос (лабораторный/научный)",
+   "name_en": "GOST 4165 — copper sulfate (laboratory/scientific grade)",
+   "aliases": [
+    "ГОСТ 4165"
+   ],
+   "geography": "RU",
+   "confidence": "verified",
+   "last_updated": "2017-01-01",
+   "description": "Российский стандарт, определяющий технические характеристики медного купороса для лабораторных и научных целей."
+  },
+  {
+   "id": "std_gost_859_2001",
+   "type": "Standard",
+   "name_ru": "ГОСТ 859-2001 — катодная медь, марка М00к",
+   "name_en": "GOST 859-2001 — cathode copper, grade M00k",
+   "aliases": [
+    "ГОСТ 859-2001",
+    "GOST 859-2001"
+   ],
+   "geography": "RU",
+   "confidence": "verified",
+   "last_updated": "2017-01-01",
+   "description": "Российский стандарт на катодную медь марки М00к, используемую, в частности, для производства медных электролитических порошков."
+  },
+  {
+   "id": "std_bs_en_1978",
+   "type": "Standard",
+   "name_ru": "BS EN 1978:1998 — катодная медь, марка Cu-CATH-1",
+   "name_en": "BS EN 1978:1998 — cathode copper, grade Cu-CATH-1",
+   "aliases": [
+    "BS EN 1978:1998",
+    "BS EN 1978",
+    "Cu-CATH-1"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2017-01-01",
+   "description": "Европейский стандарт на катодную медь марки Cu-CATH-1 — аналог российского ГОСТ 859-2001 марки М00к для того же назначения (сырьё для медных электролитических порошков), пример параллельно действующих отечественного и зарубежного стандартов на один и тот же материал."
+  },
+  {
+   "id": "pub_medny_kuporos_review",
+   "type": "Publication",
+   "name_ru": "ОБЗОР \"Медный купорос\"",
+   "name_en": "REVIEW \"Copper sulfate\"",
+   "aliases": [],
+   "geography": "RU",
+   "year": 2017,
+   "confidence": "verified",
+   "last_updated": "2017-01-01",
+   "sensitivity": "internal",
+   "path": "Обзоры/Медный купорос.pdf",
+   "source_note": "ООО «Институт Гипроникель», 2017 г. — марки медного купороса ведущих производителей, включая ОАО «Гидрометаллургический завод» (г. Лермонтов)"
+  },
+  {
+   "id": "pub_mednye_poroshki_review",
+   "type": "Publication",
+   "name_ru": "ОБЗОР \"Медные порошки\"",
+   "name_en": "REVIEW \"Copper powders\"",
+   "aliases": [],
+   "geography": "RU",
+   "year": 2017,
+   "confidence": "verified",
+   "last_updated": "2017-01-01",
+   "sensitivity": "internal",
+   "path": "Обзоры/Медные порошки.pdf",
+   "source_note": "ООО «Институт Гипроникель», 2017 г. — «Уралэлектромедь» (группа УГМК), крупнейший производитель медных электролитических порошков в России"
+  },
+  {
+   "id": "proc_reverse_osmosis",
+   "type": "Process",
+   "name_ru": "Обратный осмос",
+   "name_en": "Reverse osmosis",
+   "aliases": [
+    "РО",
+    "reverse osmosis",
+    "RO",
+    "HiPRO"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-11-02"
+  },
+  {
+   "id": "proc_electrodialysis",
+   "type": "Process",
+   "name_ru": "Электродиализ",
+   "name_en": "Electrodialysis",
+   "aliases": [
+    "ЭД",
+    "electrodialysis",
+    "ED"
+   ],
+   "geography": "Global",
+   "confidence": "probable",
+   "last_updated": "2026-07-03",
+   "description": "Упомянут как мембранный метод обессоливания в общем ряду с ОО/НФ; отдельного количественного разбора в источнике нет."
+  },
+  {
+   "id": "proc_ion_exchange",
+   "type": "Process",
+   "name_ru": "Ионный обмен (в т.ч. GYP-CIX, KNeW)",
+   "name_en": "Ion exchange (incl. GYP-CIX, KNeW)",
+   "aliases": [
+    "ионообменная очистка",
+    "ion exchange",
+    "IX",
+    "GYP-CIX",
+    "KNeW"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-07-01"
+  },
+  {
+   "id": "proc_nanofiltration",
+   "type": "Process",
+   "name_ru": "Нанофильтрация",
+   "name_en": "Nanofiltration",
+   "aliases": [
+    "nanofiltration",
+    "NF"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2026-07-04"
+  },
+  {
+   "id": "proc_lime_neutralization",
+   "type": "Process",
+   "name_ru": "Традиционная обработка известью / нейтрализация известняком",
+   "name_en": "Traditional lime treatment / limestone neutralization",
+   "aliases": [
+    "известкование",
+    "lime treatment",
+    "нейтрализация известью"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-07-01"
+  },
+  {
+   "id": "proc_hds",
+   "type": "Process",
+   "name_ru": "Процесс с высокоплотным шламом (HDS)",
+   "name_en": "High Density Sludge (HDS) process",
+   "aliases": [
+    "HDS",
+    "высокоплотный шлам"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-07-01"
+  },
+  {
+   "id": "proc_savmin",
+   "type": "Process",
+   "name_ru": "Процесс SAVMIN (осаждение гипса → эттрингита → карбонизация → разложение эттрингита)",
+   "name_en": "SAVMIN process (gypsum → ettringite precipitation → carbonation → ettringite decomposition)",
+   "aliases": [
+    "SAVMIN",
+    "savmin"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2025-07-01"
+  },
+  {
+   "id": "proc_barium_sulfate_precipitation",
+   "type": "Process",
+   "name_ru": "Осаждение сульфата бария",
+   "name_en": "Barium sulfate precipitation",
+   "aliases": [
+    "осаждение сульфата бария",
+    "barium sulfate precipitation"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-07-01"
+  },
+  {
+   "id": "proc_biological_sulfate_reduction",
+   "type": "Process",
+   "name_ru": "Биологическое восстановление сульфата (THIOTEQ, BioSURE, Paques)",
+   "name_en": "Biological sulfate reduction (THIOTEQ, BioSURE, Paques)",
+   "aliases": [
+    "THIOTEQ",
+    "BioSURE",
+    "VitaSOFT",
+    "Paques",
+    "биологическое восстановление сульфата"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2025-07-01"
+  },
+  {
+   "id": "patent_heavy_metals_lime",
+   "type": "Patent",
+   "name_ru": "Патент «Способ очистки сточных вод от ионов тяжёлых металлов»",
+   "name_en": "Patent \"Method of wastewater treatment from heavy metal ions\"",
+   "aliases": [],
+   "geography": "RU",
+   "confidence": "verified",
+   "last_updated": "2025-01-01",
+   "description": "Обработка известковым молоком (известняк : негашёная известь = 1:10, 3,3% масс.) с принудительной подачей CO2 на стадии гашения извести для образования нерастворимых основных карбонатов металлов; отстаивание с доосветлением до pH~8 за счёт естественного поглощения CO2 из атмосферы."
+  },
+  {
+   "id": "patent_sulfate_barium_freeze",
+   "type": "Patent",
+   "name_ru": "Патент «Способ очистки шахтных сточных вод от сульфатов»",
+   "name_en": "Patent \"Method of mine wastewater treatment from sulfates\"",
+   "aliases": [],
+   "geography": "RU",
+   "confidence": "verified",
+   "last_updated": "2025-01-01",
+   "description": "Двухступенчатая схема: вымораживание для концентрирования сульфатов, известкование до pH 10,5-11 (осаждение CaSO4), раздельная обработка потоков (щёлочь+Ba(OH)2 и HCl+BaCl2 до pH 4,0-4,5) с флокулянтом, объединение и осветление, карбонизация дымовыми газами до pH 8-8,5."
+  },
+  {
+   "id": "eq_ro_membrane",
+   "type": "Equipment",
+   "name_ru": "Мембранный модуль обратного осмоса",
+   "name_en": "RO membrane module",
+   "aliases": [
+    "РО-модуль",
+    "RO module"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-11-02"
+  },
+  {
+   "id": "eq_ed_stack",
+   "type": "Equipment",
+   "name_ru": "Электродиализный аппарат",
+   "name_en": "Electrodialysis stack",
+   "aliases": [
+    "ЭД-аппарат",
+    "ED stack"
+   ],
+   "geography": "Global",
+   "confidence": "probable",
+   "last_updated": "2025-09-20"
+  },
+  {
+   "id": "cond_input_sulfate_200_300",
+   "type": "Condition",
+   "name_ru": "Сульфаты в исходной воде 200-300 мг/л (параметр запроса)",
+   "name_en": "Feed sulfate 200-300 mg/l (query parameter)",
+   "parameter": "sulfate_concentration",
+   "operator": "range",
+   "value": 200,
+   "value2": 300,
+   "unit": "mg/l",
+   "confidence": "verified",
+   "last_updated": "2026-07-03",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "cond_input_chloride_200_300",
+   "type": "Condition",
+   "name_ru": "Хлориды в исходной воде 200-300 мг/л (параметр запроса)",
+   "name_en": "Feed chloride 200-300 mg/l (query parameter)",
+   "parameter": "chloride_concentration",
+   "operator": "range",
+   "value": 200,
+   "value2": 300,
+   "unit": "mg/l",
+   "confidence": "verified",
+   "last_updated": "2026-07-03",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "cond_input_calcium_200_300",
+   "type": "Condition",
+   "name_ru": "Кальций в исходной воде 200-300 мг/л (параметр запроса)",
+   "name_en": "Feed calcium 200-300 mg/l (query parameter)",
+   "parameter": "calcium_concentration",
+   "operator": "range",
+   "value": 200,
+   "value2": 300,
+   "unit": "mg/l",
+   "confidence": "verified",
+   "last_updated": "2026-07-03",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "cond_input_magnesium_200_300",
+   "type": "Condition",
+   "name_ru": "Магний в исходной воде 200-300 мг/л (параметр запроса)",
+   "name_en": "Feed magnesium 200-300 mg/l (query parameter)",
+   "parameter": "magnesium_concentration",
+   "operator": "range",
+   "value": 200,
+   "value2": 300,
+   "unit": "mg/l",
+   "confidence": "verified",
+   "last_updated": "2026-07-03",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "cond_input_sodium_200_300",
+   "type": "Condition",
+   "name_ru": "Натрий в исходной воде 200-300 мг/л (параметр запроса)",
+   "name_en": "Feed sodium 200-300 mg/l (query parameter)",
+   "parameter": "sodium_concentration",
+   "operator": "range",
+   "value": 200,
+   "value2": 300,
+   "unit": "mg/l",
+   "confidence": "verified",
+   "last_updated": "2026-07-03",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "cond_output_dry_residue_1000",
+   "type": "Condition",
+   "name_ru": "Требуемый сухой остаток ≤1000 мг/дм3 (параметр запроса)",
+   "name_en": "Target dry residue <=1000 mg/dm3 (query parameter)",
+   "parameter": "dry_residue",
+   "operator": "<=",
+   "value": 1000,
+   "unit": "mg/dm3",
+   "confidence": "verified",
+   "last_updated": "2026-07-03",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "cond_lime_floor_sulfate",
+   "type": "Condition",
+   "name_ru": "Предел традиционной известковой обработки: остаточный сульфат 1500-2500 мг/л (ограничение по растворимости гипса)",
+   "name_en": "Traditional lime treatment floor: residual sulfate 1500-2500 mg/l (gypsum solubility limit)",
+   "parameter": "sulfate_concentration",
+   "operator": "range",
+   "value": 1500,
+   "value2": 2500,
+   "unit": "mg/l",
+   "confidence": "verified",
+   "last_updated": "2025-07-01",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "cond_hds_alkalinity",
+   "type": "Condition",
+   "name_ru": "Избыточная щёлочность после HDS: 50-100 мг/л (в пересчёте на CaCO3)",
+   "name_en": "Excess alkalinity after HDS: 50-100 mg/l as CaCO3",
+   "parameter": "excess_alkalinity",
+   "operator": "range",
+   "value": 50,
+   "value2": 100,
+   "unit": "mg/l",
+   "confidence": "verified",
+   "last_updated": "2025-07-01",
+   "parameter_category": "environmental"
+  },
+  {
+   "id": "cond_savmin_input",
+   "type": "Condition",
+   "name_ru": "Исходный сульфат на пилотной установке SAVMIN (завод Stillfontein, ЮАР): 800 мг/л",
+   "name_en": "SAVMIN pilot feed sulfate (Stillfontein plant, South Africa): 800 mg/l",
+   "parameter": "sulfate_concentration",
+   "operator": "=",
+   "value": 800,
+   "unit": "mg/l",
+   "confidence": "verified",
+   "last_updated": "2025-07-01",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "cond_savmin_output",
+   "type": "Condition",
+   "name_ru": "Достигнутый сульфат после SAVMIN (Stillfontein): <200 мг/л при переработке 500 м3 воды",
+   "name_en": "SAVMIN pilot achieved sulfate (Stillfontein): <200 mg/l over 500 m3 treated",
+   "parameter": "sulfate_concentration",
+   "operator": "<=",
+   "value": 200,
+   "unit": "mg/l",
+   "confidence": "verified",
+   "last_updated": "2025-07-01",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "cond_acid_drainage_typical",
+   "type": "Condition",
+   "name_ru": "Типичный сульфат в кислых дренажных стоках, обрабатываемых соединениями бария: ~2000 мг/л",
+   "name_en": "Typical sulfate in acid drainage treated with barium compounds: ~2000 mg/l",
+   "parameter": "sulfate_concentration",
+   "operator": "=",
+   "value": 2000,
+   "unit": "mg/l",
+   "confidence": "probable",
+   "last_updated": "2025-07-01",
+   "parameter_category": "environmental"
+  },
+  {
+   "id": "concl_lime_floor_limitation",
+   "type": "Conclusion",
+   "name_ru": "Традиционная известковая нейтрализация ограничена остаточным сульфатом 1500-2500 мг/л из-за растворимости гипса и не позволяет достичь низких целевых значений (напр. ≤1000 мг/дм3)",
+   "name_en": "Traditional lime neutralization is capped at 1500-2500 mg/l residual sulfate (gypsum solubility) and cannot reach low targets (e.g. <=1000 mg/dm3)",
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-07-01"
+  },
+  {
+   "id": "concl_savmin_meets_low_target",
+   "type": "Conclusion",
+   "name_ru": "Процесс SAVMIN на пилотной установке (Stillfontein, ЮАР) снизил сульфат с 800 до <200 мг/л, т.е. может обеспечивать существенно более низкий сухой остаток, чем традиционное известкование",
+   "name_en": "SAVMIN pilot (Stillfontein, South Africa) reduced sulfate from 800 to <200 mg/l -- can reach far lower dry residue than traditional liming",
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2025-07-01"
+  },
+  {
+   "id": "exp_stillfontein_savmin",
+   "type": "Experiment",
+   "name_ru": "Пилотные испытания процесса SAVMIN, завод Stillfontein (ЮАР): переработано 500 м3 воды, сульфат снижен с 800 до <200 мг/л",
+   "name_en": "SAVMIN pilot test, Stillfontein plant (South Africa): 500 m3 treated, sulfate reduced from 800 to <200 mg/l",
+   "aliases": [],
+   "geography": "International",
+   "year": null,
+   "confidence": "verified",
+   "last_updated": "2025-07-01"
+  },
+  {
+   "id": "exp_ural_acid_mine_water",
+   "type": "Experiment",
+   "name_ru": "Кислые шахтные воды Уральского региона: Лёвихинский медный рудник (заброшен в 2003 г.), действующая система очистки неэффективна",
+   "name_en": "Acid mine water, Ural region: Lyovikha copper mine (abandoned 2003), existing treatment system ineffective",
+   "aliases": [],
+   "geography": "RU",
+   "year": 2003,
+   "confidence": "probable",
+   "last_updated": "2025-07-01"
+  },
+  {
+   "id": "exp_argel_norilsk",
+   "type": "Experiment",
+   "name_ru": "Проект «Аргель» по очистке поверхностного стока на месторождении «Песчанка» (Чукотка): контейнерная КОС производительностью 100 л/с",
+   "name_en": "Argel project treating surface runoff at the Peschanka deposit (Chukotka): containerized plant, 100 l/s capacity",
+   "aliases": [],
+   "geography": "RU",
+   "year": null,
+   "confidence": "verified",
+   "last_updated": "2025-07-01"
+  },
+  {
+   "id": "pub_metody_ochistki_shakhtnykh_vod",
+   "type": "Publication",
+   "name_ru": "ОБЗОР \"Методы очистки шахтных вод\", ОИП – 02 – 2025",
+   "name_en": "REVIEW \"Mine water treatment methods\", OIP-02-2025",
+   "aliases": [],
+   "geography": "RU",
+   "year": 2025,
+   "confidence": "verified",
+   "last_updated": "2025-01-01",
+   "sensitivity": "internal",
+   "path": "Обзоры/Методы очистки шахтных вод.docx",
+   "source_note": "Внутренний обзор Департамента по исследованиям и разработкам; рук. Р.А. Кузнецов, исп. А.К. Евграфова"
+  },
+  {
+   "id": "person_kuznetsov",
+   "type": "Expert",
+   "name_ru": "Кузнецов Р.А.",
+   "name_en": "Kuznetsov R.A.",
+   "aliases": [],
+   "geography": "RU",
+   "confidence": "verified",
+   "last_updated": "2025-01-01",
+   "role_note": "Начальник ОИП, руководитель работ по нескольким обзорам Департамента исследований и разработок"
+  },
+  {
+   "id": "person_evgrafova",
+   "type": "Expert",
+   "name_ru": "Евграфова А.К.",
+   "name_en": "Evgrafova A.K.",
+   "aliases": [],
+   "geography": "RU",
+   "confidence": "verified",
+   "last_updated": "2025-01-01",
+   "role_note": "Главный специалист, исполнитель ряда обзоров ОИП"
+  },
+  {
+   "id": "person_tsymbulov",
+   "type": "Expert",
+   "name_ru": "Цымбулов Л.Б.",
+   "name_en": "Tsymbulov L.B.",
+   "aliases": [],
+   "geography": "RU",
+   "confidence": "verified",
+   "last_updated": "2025-01-01",
+   "role_note": "Директор Департамента по исследованиям и разработкам (утверждающий, обзоры 2023-2025)"
+  },
+  {
+   "id": "fac_gipronickel",
+   "type": "Facility",
+   "name_ru": "ООО «Институт Гипроникель»",
+   "name_en": "Giproniekel Institute LLC",
+   "aliases": [
+    "Гипроникель",
+    "Giproniekel"
+   ],
+   "geography": "RU",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "fac_argel",
+   "type": "Facility",
+   "name_ru": "Группа компаний «Аргель»",
+   "name_en": "Argel Group",
+   "aliases": [
+    "Аргель"
+   ],
+   "geography": "RU",
+   "confidence": "verified",
+   "last_updated": "2025-01-01",
+   "description": "Разработка/производство оборудования для водоподготовки и водоотведения из стеклокомпозита"
+  },
+  {
+   "id": "fac_polihim",
+   "type": "Facility",
+   "name_ru": "«Полихим»",
+   "name_en": "Polihim",
+   "aliases": [],
+   "geography": "RU",
+   "confidence": "probable",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "fac_bioteq",
+   "type": "Facility",
+   "name_ru": "BioteQ / BQE Water",
+   "name_en": "BioteQ / BQE Water",
+   "aliases": [
+    "BQE Water",
+    "BioteQ"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2025-01-01",
+   "description": "Очистка шахтных вод на рудниках Raglan и Dexing"
+  },
+  {
+   "id": "proc_electrowinning_ni",
+   "type": "Process",
+   "name_ru": "Электроэкстракция никеля",
+   "name_en": "Nickel electrowinning",
+   "aliases": [
+    "электролиз никеля",
+    "nickel electrowinning",
+    "EW никеля"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-05-01"
+  },
+  {
+   "id": "proc_chloride_electrolyte_ew",
+   "type": "Process",
+   "name_ru": "Электроэкстракция никеля из хлоридного электролита",
+   "name_en": "Nickel electrowinning from chloride electrolyte",
+   "aliases": [
+    "хлоридный электролит",
+    "chloride electrolyte"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2025-01-01",
+   "description": "Применяется на заводах Nikkelverk (Норвегия) и Niihama (Япония); зрелая технология."
+  },
+  {
+   "id": "proc_sulfate_electrolyte_ew",
+   "type": "Process",
+   "name_ru": "Электроэкстракция никеля из сульфатного электролита",
+   "name_en": "Nickel electrowinning from sulfate electrolyte",
+   "aliases": [
+    "сульфатный электролит",
+    "sulfate electrolyte"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "proc_parallel_flow_technology",
+   "type": "Process",
+   "name_ru": "Технология параллельных потоков электролита (METTOP-BRX / PFT)",
+   "name_en": "Parallel flow electrolyte technology (METTOP-BRX / PFT)",
+   "aliases": [
+    "METTOP-BRX",
+    "PFT",
+    "параллельный поток",
+    "parallel flow technology"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2025-01-01",
+   "description": "Организация циркуляции электролита с вводом свежего электролита у поверхности катода через PFD/PFP; снижает диффузионный пограничный слой."
+  },
+  {
+   "id": "eq_ew_cell_ni",
+   "type": "Equipment",
+   "name_ru": "Ванна электроэкстракции никеля",
+   "name_en": "Nickel electrowinning cell",
+   "aliases": [
+    "ванна ЭЭ",
+    "electrowinning cell"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-05-01"
+  },
+  {
+   "id": "mat_catholyte",
+   "type": "Material",
+   "name_ru": "Католит",
+   "name_en": "Catholyte",
+   "aliases": [
+    "catholyte"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-05-01"
+  },
+  {
+   "id": "mat_nickel_cathode",
+   "type": "Material",
+   "name_ru": "Никелевый катод",
+   "name_en": "Nickel cathode",
+   "aliases": [
+    "nickel cathode"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-05-01"
+  },
+  {
+   "id": "cond_mettop_brx_current_density",
+   "type": "Condition",
+   "name_ru": "Плотность тока с технологией METTOP-BRX: 400-420 А/м2 (рост до 50% относительно традиционной ванны)",
+   "name_en": "Current density with METTOP-BRX: 400-420 A/m2 (up to 50% increase over traditional cell)",
+   "parameter": "current_density",
+   "operator": "range",
+   "value": 400,
+   "value2": 420,
+   "unit": "A/m2",
+   "confidence": "verified",
+   "last_updated": "2025-01-01",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "cond_brixlegg_capacity_2019",
+   "type": "Condition",
+   "name_ru": "Производительность завода Brixlegg после полного внедрения METTOP-BRX (2019): 148 тыс т/год Cu",
+   "name_en": "Brixlegg plant capacity after full METTOP-BRX rollout (2019): 148 thousand t/y Cu",
+   "parameter": "annual_capacity",
+   "operator": "=",
+   "value": 148000,
+   "unit": "t/y",
+   "confidence": "verified",
+   "last_updated": "2025-01-01",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "concl_mettop_brx_effect",
+   "type": "Conclusion",
+   "name_ru": "Технология параллельных потоков (METTOP-BRX) увеличивает плотность тока до 400-420 А/м2 (рост до 50%) за счёт усиления конвекции электролита у катода, без ухудшения качества катодного осадка",
+   "name_en": "Parallel-flow technology (METTOP-BRX) raises current density to 400-420 A/m2 (up to 50% increase) via enhanced catholyte convection at the cathode, without degrading cathode quality",
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "concl_ni_matte_slag_understudied",
+   "type": "Conclusion",
+   "name_ru": "Современных, тщательно поставленных работ по распределению благородных металлов между никелевым штейном и шлаком значительно меньше, чем по медному штейну",
+   "name_en": "Modern, carefully controlled studies on noble-metal distribution between nickel matte and slag are far scarcer than for copper matte",
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2018-01-01"
+  },
+  {
+   "id": "pub_obzor_electroliz_ni_cu",
+   "type": "Publication",
+   "name_ru": "ОБЗОР \"Обзор технических решений в области электролитического производства никеля и меди\", ОИП – 03 – 2025",
+   "name_en": "REVIEW \"Technical solutions in electrolytic nickel and copper production\", OIP-03-2025",
+   "aliases": [],
+   "geography": "RU",
+   "year": 2025,
+   "confidence": "verified",
+   "last_updated": "2025-01-01",
+   "sensitivity": "internal",
+   "path": "Обзоры/Обзор технических решений в области электролитического производства никеля и меди.docx",
+   "source_note": "Внутренний обзор; описывает преимущественно зарубежную практику (Nikkelverk, Niihama, Brixlegg); рук. Р.А. Кузнецов, исп. А.К. Евграфова"
+  },
+  {
+   "id": "pub_electroekstraktsiya_ni_elektrolit",
+   "type": "Publication",
+   "name_ru": "ОБЗОР \"Электроэкстракция никеля. Влияние состава электролита\", ОИП – 09 – 2023",
+   "name_en": "REVIEW \"Nickel electrowinning. Effect of electrolyte composition\", OIP-09-2023",
+   "aliases": [],
+   "geography": "RU",
+   "year": 2023,
+   "confidence": "verified",
+   "last_updated": "2023-01-01",
+   "sensitivity": "internal",
+   "path": "Обзоры/Электроэкстракция никеля. Влияние состава электролита.docx"
+  },
+  {
+   "id": "exp_brixlegg_mettop_brx",
+   "type": "Experiment",
+   "name_ru": "Внедрение METTOP-BRX на заводе Brixlegg (Австрия): плотность тока выросла с ~340 А/м2 (катоды ISA, 1988) до >400 А/м2 (2011-2019), производительность до 148 тыс т/год к 2019",
+   "name_en": "METTOP-BRX rollout at Brixlegg (Austria): current density rose from ~340 A/m2 (ISA cathodes, 1988) to >400 A/m2 (2011-2019), capacity to 148k t/y by 2019",
+   "aliases": [],
+   "geography": "International",
+   "year": 2019,
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "fac_brixlegg",
+   "type": "Facility",
+   "name_ru": "Завод Brixlegg (Австрия)",
+   "name_en": "Brixlegg plant (Austria)",
+   "aliases": [
+    "Brixlegg"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "fac_mettop",
+   "type": "Facility",
+   "name_ru": "METTOP GmbH (Австрия)",
+   "name_en": "METTOP GmbH (Austria)",
+   "aliases": [
+    "METTOP"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "fac_nikkelverk",
+   "type": "Facility",
+   "name_ru": "Завод Nikkelverk (Норвегия)",
+   "name_en": "Nikkelverk plant (Norway)",
+   "aliases": [
+    "Nikkelverk"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "fac_niihama",
+   "type": "Facility",
+   "name_ru": "Завод Niihama (Япония)",
+   "name_en": "Niihama plant (Japan)",
+   "aliases": [
+    "Niihama"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "mat_au",
+   "type": "Material",
+   "name_ru": "Золото",
+   "name_en": "Gold (Au)",
+   "aliases": [
+    "Au",
+    "gold"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "mat_ag",
+   "type": "Material",
+   "name_ru": "Серебро",
+   "name_en": "Silver (Ag)",
+   "aliases": [
+    "Ag",
+    "silver"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "mat_pgm",
+   "type": "Material",
+   "name_ru": "Металлы платиновой группы (МПГ)",
+   "name_en": "Platinum group metals (PGM)",
+   "aliases": [
+    "МПГ",
+    "PGM",
+    "platinum group metals"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "mat_copper_matte",
+   "type": "Material",
+   "name_ru": "Медный штейн",
+   "name_en": "Copper matte",
+   "aliases": [
+    "copper matte"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "mat_nickel_matte",
+   "type": "Material",
+   "name_ru": "Никелевый штейн",
+   "name_en": "Nickel matte",
+   "aliases": [
+    "nickel matte",
+    "Ni3S2"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "mat_slag",
+   "type": "Material",
+   "name_ru": "Шлак",
+   "name_en": "Slag",
+   "aliases": [
+    "slag"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "proc_matte_smelting",
+   "type": "Process",
+   "name_ru": "Плавка на штейн",
+   "name_en": "Matte smelting",
+   "aliases": [
+    "matte smelting"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "eq_flash_smelting_furnace",
+   "type": "Equipment",
+   "name_ru": "Печь взвешенной плавки (ПВП)",
+   "name_en": "Flash smelting furnace",
+   "aliases": [
+    "ПВП",
+    "печь взвешенной плавки",
+    "взвешенная плавка",
+    "flash smelting furnace",
+    "flash smelting",
+    "fluidized bed furnace"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2022-01-01",
+   "description": "В ТЗ конкурса 'ПВП'/'печь взвешенной плавки' сопоставлены с англ. 'fluidized bed furnace' -- технически это разные конструкции печей (flash smelting vs fluidized bed), но алиас сохранён как есть, поскольку именно так термин задан в самом задании."
+  },
+  {
+   "id": "cond_flash_smelting_high_matte_output",
+   "type": "Condition",
+   "name_ru": "Выход никеля в файнштейне на печи взвешенной плавки: 25-35 тыс т/год",
+   "name_en": "Nickel output in high-matte from flash smelting furnace: 25-35 thousand t/y",
+   "parameter": "annual_capacity",
+   "operator": "range",
+   "value": 25000,
+   "value2": 35000,
+   "unit": "t/y",
+   "confidence": "verified",
+   "last_updated": "2022-01-01",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "cond_flash_smelting_slag_cu",
+   "type": "Condition",
+   "name_ru": "Содержание меди в шлаке взвешенной плавки на черновую медь (BFS): 15-25%",
+   "name_en": "Copper content in blister flash smelting (BFS) slag: 15-25%",
+   "parameter": "copper_concentration",
+   "operator": "range",
+   "value": 15,
+   "value2": 25,
+   "unit": "%",
+   "confidence": "verified",
+   "last_updated": "2024-01-01",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "exp_ni_flash_smelting_trends",
+   "type": "Experiment",
+   "name_ru": "Тенденции и изменения в плавке никелевых сульфидных концентратов на ПВП: переход с модели FFMod32 на Outotec Process Advisor (2014)",
+   "name_en": "Trends in flash smelting of nickel sulfide concentrates: FFMod32 replaced by Outotec Process Advisor (2014)",
+   "aliases": [],
+   "geography": "International",
+   "year": 2022,
+   "confidence": "verified",
+   "last_updated": "2022-01-01"
+  },
+  {
+   "id": "pub_ni_flash_smelting_trends",
+   "type": "Publication",
+   "name_ru": "ОБЗОР \"Тенденции и изменения в плавке никелевых сульфидных концентратов\", ОИП – 05 – 2022",
+   "name_en": "REVIEW \"Trends and changes in nickel sulfide concentrate smelting\", OIP-05-2022",
+   "aliases": [],
+   "geography": "RU",
+   "year": 2022,
+   "confidence": "verified",
+   "last_updated": "2022-01-01",
+   "sensitivity": "internal",
+   "path": "Обзоры/ОИП-05-2022 Тенденции и изменения в плавке никелевых сульфидных концентратов.docx"
+  },
+  {
+   "id": "fac_outotec",
+   "type": "Facility",
+   "name_ru": "Outotec (Финляндия)",
+   "name_en": "Outotec (Finland)",
+   "aliases": [
+    "Outotec"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2022-01-01",
+   "description": "Поставщик технологии и оборудования ПВП/обеднения шлаков, упоминается в нескольких реальных обзорах корпуса (модель Process Advisor, обеднительная линия 1530 т/сут шлака)."
+  },
+  {
+   "id": "proc_slag_flotation_depletion",
+   "type": "Process",
+   "name_ru": "Флотационное обеднение конвертерных шлаков",
+   "name_en": "Froth flotation depletion of converter slag",
+   "aliases": [
+    "флотационное обеднение шлаков",
+    "slag flotation depletion"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2013-01-01",
+   "description": "Замена электропечного обеднения на флотацию шлаков конвертера Тениенте (8-10% Cu) с получением медного концентрата (38% Cu) и отвального хвоста (0,4% Cu)."
+  },
+  {
+   "id": "fac_codelco_potrerillos",
+   "type": "Facility",
+   "name_ru": "Завод Potrerillos (Codelco, Чили)",
+   "name_en": "Potrerillos smelter (Codelco, Chile)",
+   "aliases": [
+    "Potrerillos"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2013-01-01"
+  },
+  {
+   "id": "cond_potrerillos_capex",
+   "type": "Condition",
+   "name_ru": "Капитальные затраты на линию флотационного обеднения шлаков (Potrerillos): контракт с Outotec 10 млн €",
+   "name_en": "Capex for the slag flotation depletion line (Potrerillos): Outotec contract EUR 10 million",
+   "parameter": "capex",
+   "operator": "=",
+   "value": 10,
+   "unit": "million_eur",
+   "confidence": "verified",
+   "last_updated": "2013-01-01",
+   "parameter_category": "economic"
+  },
+  {
+   "id": "cond_potrerillos_capacity",
+   "type": "Condition",
+   "name_ru": "Производительность линии флотационного обеднения шлаков (Potrerillos): 1530 т/сут",
+   "name_en": "Slag flotation depletion line capacity (Potrerillos): 1530 t/day",
+   "parameter": "annual_capacity",
+   "operator": "=",
+   "value": 1530,
+   "unit": "t/day",
+   "confidence": "verified",
+   "last_updated": "2013-01-01",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "cond_potrerillos_recovery_before",
+   "type": "Condition",
+   "name_ru": "Извлечение меди на заводе Potrerillos до внедрения флотации шлаков: 95,5%",
+   "name_en": "Copper recovery at Potrerillos before slag flotation: 95.5%",
+   "parameter": "copper_recovery",
+   "operator": "=",
+   "value": 95.5,
+   "unit": "%",
+   "confidence": "verified",
+   "last_updated": "2013-01-01",
+   "parameter_category": "efficiency"
+  },
+  {
+   "id": "cond_potrerillos_recovery_after",
+   "type": "Condition",
+   "name_ru": "Извлечение меди на заводе Potrerillos после внедрения флотации шлаков: 97,4%",
+   "name_en": "Copper recovery at Potrerillos after slag flotation: 97.4%",
+   "parameter": "copper_recovery",
+   "operator": "=",
+   "value": 97.4,
+   "unit": "%",
+   "confidence": "verified",
+   "last_updated": "2013-01-01",
+   "parameter_category": "efficiency"
+  },
+  {
+   "id": "exp_potrerillos_slag_flotation",
+   "type": "Experiment",
+   "name_ru": "Замена электропечного обеднения на флотацию шлаков конвертера Тениенте на заводе Potrerillos (2011)",
+   "name_en": "Replacement of electric-furnace depletion with Teniente converter slag flotation at Potrerillos (2011)",
+   "aliases": [],
+   "geography": "International",
+   "year": 2011,
+   "confidence": "verified",
+   "last_updated": "2013-01-01"
+  },
+  {
+   "id": "pub_obednenie_shlakov_review",
+   "type": "Publication",
+   "name_ru": "ОБЗОР \"Обеднение шлаков\"",
+   "name_en": "REVIEW \"Slag depletion\"",
+   "aliases": [],
+   "geography": "RU",
+   "confidence": "verified",
+   "last_updated": "2013-01-01",
+   "sensitivity": "internal",
+   "path": "Обзоры/Обеднение_шлаков.docx",
+   "source_note": "Со ссылкой на тезисы докладов C.Queirolo \"New Slag Flotation Plant for Potrerillos Smelter\" и L.Voisin/W.Kracht, Copper International Conference, Сантьяго (Чили), 1-4 декабря 2013 г."
+  },
+  {
+   "id": "exp_cu_matte_slag_distribution",
+   "type": "Experiment",
+   "name_ru": "Равновесные опыты по распределению Au/Ag между медным штейном и железосиликатным шлаком (G.Roghani, M.Henao, Университет Аалто)",
+   "name_en": "Equilibrium experiments on Au/Ag distribution between copper matte and iron-silicate slag (G.Roghani, M.Henao, Aalto University)",
+   "aliases": [],
+   "geography": "International",
+   "year": 2018,
+   "confidence": "verified",
+   "last_updated": "2018-01-01"
+  },
+  {
+   "id": "exp_ni_matte_slag_distribution",
+   "type": "Experiment",
+   "name_ru": "Равновесные опыты по распределению Ag/Au/МПГ между Ni3S2-FeS штейном и шлаком (Font [17,18]; Henao & Itagaki [19]; Avarmaa & Taskinen [20]), 1523-1873К",
+   "name_en": "Equilibrium experiments on Ag/Au/PGM distribution between Ni3S2-FeS matte and slag (Font [17,18]; Henao & Itagaki [19]; Avarmaa & Taskinen [20]), 1523-1873K",
+   "aliases": [],
+   "geography": "International",
+   "year": 2018,
+   "confidence": "verified",
+   "last_updated": "2018-01-01"
+  },
+  {
+   "id": "pub_au_ag_pgm_matte_slag",
+   "type": "Publication",
+   "name_ru": "ОБЗОР \"Распределение Au, Ag и МПГ между медным/никелевым штейном и шлаком (по зарубежным источникам последних лет)\", ОИП – 06 – 2018",
+   "name_en": "REVIEW \"Au, Ag, PGM distribution between copper/nickel matte and slag (recent foreign sources)\", OIP-06-2018",
+   "aliases": [],
+   "geography": "RU",
+   "year": 2018,
+   "confidence": "verified",
+   "last_updated": "2018-01-01",
+   "sensitivity": "internal",
+   "path": "Обзоры/Распределение Au, Ag и МПГ между меднымникелевым штейном и шлаком.docx",
+   "source_note": "Внутренний обзор; утв. С.М. Козырев (Директор Департамента, к.г.-м.н.), рук. Р.А. Кузнецов, исп. А.К. Евграфова"
+  },
+  {
+   "id": "person_kozyrev",
+   "type": "Expert",
+   "name_ru": "Козырев С.М.",
+   "name_en": "Kozyrev S.M.",
+   "aliases": [],
+   "geography": "RU",
+   "confidence": "verified",
+   "last_updated": "2018-01-01",
+   "role_note": "Директор Департамента по исследованиям и разработкам, к.г.-м.н. (утверждающий обзор 2018 г.)"
+  },
+  {
+   "id": "person_font",
+   "type": "Expert",
+   "name_ru": "J.M. Font",
+   "name_en": "J.M. Font",
+   "aliases": [
+    "Font"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2018-01-01",
+   "role_note": "Институт передовых технологий переработки, Codelco (Чили)"
+  },
+  {
+   "id": "person_avarmaa_taskinen",
+   "type": "Expert",
+   "name_ru": "K. Avarmaa, P. Taskinen",
+   "name_en": "K. Avarmaa, P. Taskinen",
+   "aliases": [
+    "Avarmaa",
+    "Taskinen"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2018-01-01",
+   "role_note": "Университет Аалто (Финляндия)"
+  },
+  {
+   "id": "fac_codelco_institute",
+   "type": "Facility",
+   "name_ru": "Институт передовых технологий переработки, Codelco (Чили)",
+   "name_en": "Institute of Advanced Processing Technologies, Codelco (Chile)",
+   "aliases": [
+    "Codelco"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2018-01-01"
+  },
+  {
+   "id": "fac_aalto",
+   "type": "Facility",
+   "name_ru": "Университет Аалто (Финляндия)",
+   "name_en": "Aalto University (Finland)",
+   "aliases": [
+    "Aalto",
+    "Aalto University"
+   ],
+   "geography": "International",
+   "confidence": "verified",
+   "last_updated": "2018-01-01"
+  },
+  {
+   "id": "proc_deep_well_injection",
+   "type": "Process",
+   "name_ru": "Закачка шахтных вод в глубокие горизонты",
+   "name_en": "Deep well injection of mine water",
+   "aliases": [
+    "глубинная закачка",
+    "deep well injection"
+   ],
+   "geography": "Global",
+   "confidence": "hypothesis",
+   "last_updated": "2026-07-03",
+   "description": "Концепция признана предметной областью, но в проверенном корпусе источников (обзоры, доклады, статьи института) не найдено ни одного эксперимента или публикации, посвящённых именно этому способу удаления шахтных вод -- см. gap-детекцию."
+  },
+  {
+   "id": "proc_heap_leaching",
+   "type": "Process",
+   "name_ru": "Кучное выщелачивание",
+   "name_en": "Heap leaching",
+   "aliases": [
+    "heap leaching",
+    "КВ"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2017-01-01"
+  },
+  {
+   "id": "mat_nickel_ore",
+   "type": "Material",
+   "name_ru": "Никелевая руда",
+   "name_en": "Nickel ore",
+   "aliases": [
+    "nickel ore"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2025-01-01"
+  },
+  {
+   "id": "mat_copper_ore",
+   "type": "Material",
+   "name_ru": "Медная руда (окисленная)",
+   "name_en": "Copper ore (oxidized)",
+   "aliases": [
+    "copper ore",
+    "окисленная руда"
+   ],
+   "geography": "Global",
+   "confidence": "verified",
+   "last_updated": "2017-01-01"
+  },
+  {
+   "id": "cond_cold_climate",
+   "type": "Condition",
+   "name_ru": "Холодный климат",
+   "name_en": "Cold climate",
+   "parameter": "climate",
+   "operator": "=",
+   "value": null,
+   "unit": "category:cold",
+   "confidence": "verified",
+   "last_updated": "2017-01-01",
+   "parameter_category": "climate"
+  },
+  {
+   "id": "cond_heap_leaching_reextraction_acid",
+   "type": "Condition",
+   "name_ru": "Подкисление на стадии реэкстракции меди: серная кислота 180-190 г/л",
+   "name_en": "Copper re-extraction stage acidification: sulfuric acid 180-190 g/l",
+   "parameter": "sulfuric_acid_concentration",
+   "operator": "range",
+   "value": 180,
+   "value2": 190,
+   "unit": "g/l",
+   "confidence": "verified",
+   "last_updated": "2017-01-01",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "cond_heap_leaching_re_extract_cu",
+   "type": "Condition",
+   "name_ru": "Содержание меди в водном растворе после реэкстракции: 40-48 г/л",
+   "name_en": "Copper content in re-extraction aqueous solution: 40-48 g/l",
+   "parameter": "copper_concentration",
+   "operator": "range",
+   "value": 40,
+   "value2": 48,
+   "unit": "g/l",
+   "confidence": "verified",
+   "last_updated": "2017-01-01",
+   "parameter_category": "technical"
+  },
+  {
+   "id": "exp_heap_leaching_copper_cold_2017",
+   "type": "Experiment",
+   "name_ru": "Технология кучного выщелачивания меди из окисленных руд и её применимость в условиях холодного климата (ООО «Институт Гипроникель»)",
+   "name_en": "Copper heap leaching technology from oxidized ores and its applicability in cold climate (Giproniekel Institute)",
+   "aliases": [],
+   "geography": "RU",
+   "year": 2017,
+   "confidence": "verified",
+   "last_updated": "2017-01-01"
+  },
+  {
+   "id": "pub_heap_leaching_cold_climate",
+   "type": "Publication",
+   "name_ru": "ТИ \"Технология кучного выщелачивания и её применимость в условиях холодного климата\", ТИ-5-2017",
+   "name_en": "TR \"Heap leaching technology and its applicability in cold climate\", TI-5-2017",
+   "aliases": [],
+   "geography": "RU",
+   "year": 2017,
+   "confidence": "verified",
+   "last_updated": "2017-01-01",
+   "sensitivity": "internal",
+   "path": "Обзоры/ТИ-5-2017. Кучное выщелачивание в условиях холодного климата.pdf",
+   "source_note": "ООО «Институт Гипроникель», 2017 г."
+  }
+ ],
+ "relations": [
+  {
+   "from": "mat_copper_sulfate",
+   "to": "pub_medny_kuporos_review",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "mat_cathode_copper",
+   "to": "pub_mednye_poroshki_review",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "std_gost_19347",
+   "to": "mat_copper_sulfate",
+   "type": "APPLIES_TO_MATERIAL"
+  },
+  {
+   "from": "std_gost_19347",
+   "to": "pub_medny_kuporos_review",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "std_gost_4165",
+   "to": "mat_copper_sulfate",
+   "type": "APPLIES_TO_MATERIAL"
+  },
+  {
+   "from": "std_gost_4165",
+   "to": "pub_medny_kuporos_review",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "std_gost_859_2001",
+   "to": "mat_cathode_copper",
+   "type": "APPLIES_TO_MATERIAL"
+  },
+  {
+   "from": "std_gost_859_2001",
+   "to": "pub_mednye_poroshki_review",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "std_bs_en_1978",
+   "to": "mat_cathode_copper",
+   "type": "APPLIES_TO_MATERIAL"
+  },
+  {
+   "from": "std_bs_en_1978",
+   "to": "pub_mednye_poroshki_review",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "proc_reverse_osmosis",
+   "to": "mat_mine_water",
+   "type": "APPLIES_TO_MATERIAL"
+  },
+  {
+   "from": "proc_reverse_osmosis",
+   "to": "pub_metody_ochistki_shakhtnykh_vod",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "proc_electrodialysis",
+   "to": "mat_mine_water",
+   "type": "APPLIES_TO_MATERIAL"
+  },
+  {
+   "from": "proc_ion_exchange",
+   "to": "mat_mine_water",
+   "type": "APPLIES_TO_MATERIAL"
+  },
+  {
+   "from": "proc_ion_exchange",
+   "to": "pub_metody_ochistki_shakhtnykh_vod",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "proc_nanofiltration",
+   "to": "mat_mine_water",
+   "type": "APPLIES_TO_MATERIAL"
+  },
+  {
+   "from": "proc_nanofiltration",
+   "to": "pub_metody_ochistki_shakhtnykh_vod",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "proc_lime_neutralization",
+   "to": "mat_mine_water",
+   "type": "APPLIES_TO_MATERIAL"
+  },
+  {
+   "from": "proc_lime_neutralization",
+   "to": "cond_lime_floor_sulfate",
+   "type": "PRODUCES_OUTPUT"
+  },
+  {
+   "from": "proc_lime_neutralization",
+   "to": "concl_lime_floor_limitation",
+   "type": "CONCLUDES"
+  },
+  {
+   "from": "proc_hds",
+   "to": "mat_mine_water",
+   "type": "APPLIES_TO_MATERIAL"
+  },
+  {
+   "from": "proc_hds",
+   "to": "cond_hds_alkalinity",
+   "type": "PRODUCES_OUTPUT"
+  },
+  {
+   "from": "proc_hds",
+   "to": "cond_lime_floor_sulfate",
+   "type": "OPERATES_AT_CONDITION"
+  },
+  {
+   "from": "proc_savmin",
+   "to": "mat_mine_water",
+   "type": "APPLIES_TO_MATERIAL"
+  },
+  {
+   "from": "proc_barium_sulfate_precipitation",
+   "to": "mat_mine_water",
+   "type": "APPLIES_TO_MATERIAL"
+  },
+  {
+   "from": "proc_barium_sulfate_precipitation",
+   "to": "cond_acid_drainage_typical",
+   "type": "OPERATES_AT_CONDITION"
+  },
+  {
+   "from": "proc_barium_sulfate_precipitation",
+   "to": "pub_metody_ochistki_shakhtnykh_vod",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "proc_biological_sulfate_reduction",
+   "to": "mat_mine_water",
+   "type": "APPLIES_TO_MATERIAL"
+  },
+  {
+   "from": "proc_biological_sulfate_reduction",
+   "to": "pub_metody_ochistki_shakhtnykh_vod",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "patent_heavy_metals_lime",
+   "to": "proc_lime_neutralization",
+   "type": "APPLIES_TO_PROCESS"
+  },
+  {
+   "from": "patent_heavy_metals_lime",
+   "to": "mat_mine_water",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "patent_heavy_metals_lime",
+   "to": "mat_sulfate",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "patent_heavy_metals_lime",
+   "to": "pub_metody_ochistki_shakhtnykh_vod",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "patent_sulfate_barium_freeze",
+   "to": "proc_barium_sulfate_precipitation",
+   "type": "APPLIES_TO_PROCESS"
+  },
+  {
+   "from": "patent_sulfate_barium_freeze",
+   "to": "proc_lime_neutralization",
+   "type": "APPLIES_TO_PROCESS"
+  },
+  {
+   "from": "patent_sulfate_barium_freeze",
+   "to": "mat_sulfate",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "patent_sulfate_barium_freeze",
+   "to": "mat_mine_water",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "patent_sulfate_barium_freeze",
+   "to": "pub_metody_ochistki_shakhtnykh_vod",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "eq_ro_membrane",
+   "to": "proc_reverse_osmosis",
+   "type": "APPLIES_TO"
+  },
+  {
+   "from": "eq_ed_stack",
+   "to": "proc_electrodialysis",
+   "type": "APPLIES_TO"
+  },
+  {
+   "from": "concl_lime_floor_limitation",
+   "to": "pub_metody_ochistki_shakhtnykh_vod",
+   "type": "VALIDATED_BY"
+  },
+  {
+   "from": "concl_savmin_meets_low_target",
+   "to": "pub_metody_ochistki_shakhtnykh_vod",
+   "type": "VALIDATED_BY"
+  },
+  {
+   "from": "concl_savmin_meets_low_target",
+   "to": "concl_lime_floor_limitation",
+   "type": "CONTRADICTS"
+  },
+  {
+   "from": "exp_stillfontein_savmin",
+   "to": "mat_gypsum",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "exp_stillfontein_savmin",
+   "to": "proc_savmin",
+   "type": "APPLIES_TO_PROCESS"
+  },
+  {
+   "from": "exp_stillfontein_savmin",
+   "to": "cond_savmin_input",
+   "type": "OPERATES_AT_CONDITION"
+  },
+  {
+   "from": "exp_stillfontein_savmin",
+   "to": "cond_savmin_output",
+   "type": "PRODUCES_OUTPUT"
+  },
+  {
+   "from": "exp_stillfontein_savmin",
+   "to": "pub_metody_ochistki_shakhtnykh_vod",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "exp_stillfontein_savmin",
+   "to": "concl_savmin_meets_low_target",
+   "type": "CONCLUDES"
+  },
+  {
+   "from": "exp_stillfontein_savmin",
+   "to": "fac_bioteq",
+   "type": "OCCURRED_AT"
+  },
+  {
+   "from": "exp_ural_acid_mine_water",
+   "to": "mat_mine_water",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "exp_ural_acid_mine_water",
+   "to": "pub_metody_ochistki_shakhtnykh_vod",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "exp_argel_norilsk",
+   "to": "mat_mine_water",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "exp_argel_norilsk",
+   "to": "pub_metody_ochistki_shakhtnykh_vod",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "exp_argel_norilsk",
+   "to": "fac_argel",
+   "type": "OCCURRED_AT"
+  },
+  {
+   "from": "pub_metody_ochistki_shakhtnykh_vod",
+   "to": "person_kuznetsov",
+   "type": "AUTHORED_BY"
+  },
+  {
+   "from": "pub_metody_ochistki_shakhtnykh_vod",
+   "to": "person_evgrafova",
+   "type": "AUTHORED_BY"
+  },
+  {
+   "from": "pub_metody_ochistki_shakhtnykh_vod",
+   "to": "person_tsymbulov",
+   "type": "VALIDATED_BY"
+  },
+  {
+   "from": "person_kuznetsov",
+   "to": "fac_gipronickel",
+   "type": "AFFILIATED_WITH"
+  },
+  {
+   "from": "person_kuznetsov",
+   "to": "proc_reverse_osmosis",
+   "type": "EXPERT_IN"
+  },
+  {
+   "from": "person_kuznetsov",
+   "to": "proc_electrowinning_ni",
+   "type": "EXPERT_IN"
+  },
+  {
+   "from": "person_evgrafova",
+   "to": "fac_gipronickel",
+   "type": "AFFILIATED_WITH"
+  },
+  {
+   "from": "person_tsymbulov",
+   "to": "fac_gipronickel",
+   "type": "AFFILIATED_WITH"
+  },
+  {
+   "from": "fac_gipronickel",
+   "to": "proc_heap_leaching",
+   "type": "EXPERT_IN"
+  },
+  {
+   "from": "proc_electrowinning_ni",
+   "to": "mat_catholyte",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "proc_electrowinning_ni",
+   "to": "mat_nickel_cathode",
+   "type": "PRODUCES_OUTPUT"
+  },
+  {
+   "from": "proc_electrowinning_ni",
+   "to": "pub_electroekstraktsiya_ni_elektrolit",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "proc_chloride_electrolyte_ew",
+   "to": "proc_electrowinning_ni",
+   "type": "APPLIES_TO_PROCESS"
+  },
+  {
+   "from": "proc_chloride_electrolyte_ew",
+   "to": "fac_nikkelverk",
+   "type": "OCCURRED_AT"
+  },
+  {
+   "from": "proc_chloride_electrolyte_ew",
+   "to": "fac_niihama",
+   "type": "OCCURRED_AT"
+  },
+  {
+   "from": "proc_chloride_electrolyte_ew",
+   "to": "pub_obzor_electroliz_ni_cu",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "proc_sulfate_electrolyte_ew",
+   "to": "proc_electrowinning_ni",
+   "type": "APPLIES_TO_PROCESS"
+  },
+  {
+   "from": "proc_sulfate_electrolyte_ew",
+   "to": "pub_obzor_electroliz_ni_cu",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "proc_parallel_flow_technology",
+   "to": "proc_electrowinning_ni",
+   "type": "APPLIES_TO_PROCESS"
+  },
+  {
+   "from": "proc_parallel_flow_technology",
+   "to": "cond_mettop_brx_current_density",
+   "type": "OPERATES_AT_CONDITION"
+  },
+  {
+   "from": "proc_parallel_flow_technology",
+   "to": "pub_obzor_electroliz_ni_cu",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "proc_parallel_flow_technology",
+   "to": "concl_mettop_brx_effect",
+   "type": "CONCLUDES"
+  },
+  {
+   "from": "eq_ew_cell_ni",
+   "to": "proc_electrowinning_ni",
+   "type": "APPLIES_TO"
+  },
+  {
+   "from": "concl_mettop_brx_effect",
+   "to": "pub_obzor_electroliz_ni_cu",
+   "type": "VALIDATED_BY"
+  },
+  {
+   "from": "concl_ni_matte_slag_understudied",
+   "to": "pub_au_ag_pgm_matte_slag",
+   "type": "VALIDATED_BY"
+  },
+  {
+   "from": "pub_obzor_electroliz_ni_cu",
+   "to": "person_kuznetsov",
+   "type": "AUTHORED_BY"
+  },
+  {
+   "from": "pub_obzor_electroliz_ni_cu",
+   "to": "person_evgrafova",
+   "type": "AUTHORED_BY"
+  },
+  {
+   "from": "pub_obzor_electroliz_ni_cu",
+   "to": "person_tsymbulov",
+   "type": "VALIDATED_BY"
+  },
+  {
+   "from": "pub_electroekstraktsiya_ni_elektrolit",
+   "to": "person_kuznetsov",
+   "type": "AUTHORED_BY"
+  },
+  {
+   "from": "exp_brixlegg_mettop_brx",
+   "to": "proc_parallel_flow_technology",
+   "type": "APPLIES_TO_PROCESS"
+  },
+  {
+   "from": "exp_brixlegg_mettop_brx",
+   "to": "cond_mettop_brx_current_density",
+   "type": "OPERATES_AT_CONDITION"
+  },
+  {
+   "from": "exp_brixlegg_mettop_brx",
+   "to": "cond_brixlegg_capacity_2019",
+   "type": "PRODUCES_OUTPUT"
+  },
+  {
+   "from": "exp_brixlegg_mettop_brx",
+   "to": "fac_brixlegg",
+   "type": "OCCURRED_AT"
+  },
+  {
+   "from": "exp_brixlegg_mettop_brx",
+   "to": "pub_obzor_electroliz_ni_cu",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "fac_mettop",
+   "to": "fac_brixlegg",
+   "type": "AFFILIATED_WITH"
+  },
+  {
+   "from": "proc_matte_smelting",
+   "to": "mat_copper_matte",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "proc_matte_smelting",
+   "to": "mat_nickel_matte",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "proc_matte_smelting",
+   "to": "mat_slag",
+   "type": "PRODUCES_OUTPUT"
+  },
+  {
+   "from": "eq_flash_smelting_furnace",
+   "to": "proc_matte_smelting",
+   "type": "APPLIES_TO"
+  },
+  {
+   "from": "eq_flash_smelting_furnace",
+   "to": "cond_flash_smelting_slag_cu",
+   "type": "OPERATES_AT_CONDITION"
+  },
+  {
+   "from": "eq_flash_smelting_furnace",
+   "to": "fac_outotec",
+   "type": "OCCURRED_AT"
+  },
+  {
+   "from": "exp_ni_flash_smelting_trends",
+   "to": "eq_flash_smelting_furnace",
+   "type": "APPLIES_TO_PROCESS"
+  },
+  {
+   "from": "exp_ni_flash_smelting_trends",
+   "to": "cond_flash_smelting_high_matte_output",
+   "type": "PRODUCES_OUTPUT"
+  },
+  {
+   "from": "exp_ni_flash_smelting_trends",
+   "to": "pub_ni_flash_smelting_trends",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "pub_ni_flash_smelting_trends",
+   "to": "person_kuznetsov",
+   "type": "AUTHORED_BY"
+  },
+  {
+   "from": "proc_slag_flotation_depletion",
+   "to": "mat_slag",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "proc_slag_flotation_depletion",
+   "to": "mat_copper_matte",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "proc_slag_flotation_depletion",
+   "to": "fac_outotec",
+   "type": "OCCURRED_AT"
+  },
+  {
+   "from": "proc_slag_flotation_depletion",
+   "to": "pub_obednenie_shlakov_review",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "exp_potrerillos_slag_flotation",
+   "to": "proc_slag_flotation_depletion",
+   "type": "APPLIES_TO_PROCESS"
+  },
+  {
+   "from": "exp_potrerillos_slag_flotation",
+   "to": "fac_codelco_potrerillos",
+   "type": "OCCURRED_AT"
+  },
+  {
+   "from": "exp_potrerillos_slag_flotation",
+   "to": "cond_potrerillos_capex",
+   "type": "OPERATES_AT_CONDITION"
+  },
+  {
+   "from": "exp_potrerillos_slag_flotation",
+   "to": "cond_potrerillos_capacity",
+   "type": "OPERATES_AT_CONDITION"
+  },
+  {
+   "from": "exp_potrerillos_slag_flotation",
+   "to": "cond_potrerillos_recovery_before",
+   "type": "OPERATES_AT_CONDITION"
+  },
+  {
+   "from": "exp_potrerillos_slag_flotation",
+   "to": "cond_potrerillos_recovery_after",
+   "type": "PRODUCES_OUTPUT"
+  },
+  {
+   "from": "exp_potrerillos_slag_flotation",
+   "to": "pub_obednenie_shlakov_review",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "exp_cu_matte_slag_distribution",
+   "to": "mat_au",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "exp_cu_matte_slag_distribution",
+   "to": "mat_ag",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "exp_cu_matte_slag_distribution",
+   "to": "mat_copper_matte",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "exp_cu_matte_slag_distribution",
+   "to": "mat_slag",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "exp_cu_matte_slag_distribution",
+   "to": "proc_matte_smelting",
+   "type": "APPLIES_TO_PROCESS"
+  },
+  {
+   "from": "exp_cu_matte_slag_distribution",
+   "to": "pub_au_ag_pgm_matte_slag",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "exp_ni_matte_slag_distribution",
+   "to": "mat_ag",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "exp_ni_matte_slag_distribution",
+   "to": "mat_au",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "exp_ni_matte_slag_distribution",
+   "to": "mat_pgm",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "exp_ni_matte_slag_distribution",
+   "to": "mat_nickel_matte",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "exp_ni_matte_slag_distribution",
+   "to": "mat_slag",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "exp_ni_matte_slag_distribution",
+   "to": "proc_matte_smelting",
+   "type": "APPLIES_TO_PROCESS"
+  },
+  {
+   "from": "exp_ni_matte_slag_distribution",
+   "to": "pub_au_ag_pgm_matte_slag",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "exp_ni_matte_slag_distribution",
+   "to": "concl_ni_matte_slag_understudied",
+   "type": "CONCLUDES"
+  },
+  {
+   "from": "pub_au_ag_pgm_matte_slag",
+   "to": "person_kuznetsov",
+   "type": "AUTHORED_BY"
+  },
+  {
+   "from": "pub_au_ag_pgm_matte_slag",
+   "to": "person_evgrafova",
+   "type": "AUTHORED_BY"
+  },
+  {
+   "from": "pub_au_ag_pgm_matte_slag",
+   "to": "person_kozyrev",
+   "type": "VALIDATED_BY"
+  },
+  {
+   "from": "person_kozyrev",
+   "to": "fac_gipronickel",
+   "type": "AFFILIATED_WITH"
+  },
+  {
+   "from": "person_font",
+   "to": "proc_matte_smelting",
+   "type": "EXPERT_IN"
+  },
+  {
+   "from": "person_font",
+   "to": "fac_codelco_institute",
+   "type": "AFFILIATED_WITH"
+  },
+  {
+   "from": "person_avarmaa_taskinen",
+   "to": "proc_matte_smelting",
+   "type": "EXPERT_IN"
+  },
+  {
+   "from": "person_avarmaa_taskinen",
+   "to": "fac_aalto",
+   "type": "AFFILIATED_WITH"
+  },
+  {
+   "from": "exp_heap_leaching_copper_cold_2017",
+   "to": "proc_heap_leaching",
+   "type": "APPLIES_TO_PROCESS"
+  },
+  {
+   "from": "exp_heap_leaching_copper_cold_2017",
+   "to": "mat_copper_ore",
+   "type": "USES_MATERIAL"
+  },
+  {
+   "from": "exp_heap_leaching_copper_cold_2017",
+   "to": "cond_cold_climate",
+   "type": "OPERATES_AT_CONDITION"
+  },
+  {
+   "from": "exp_heap_leaching_copper_cold_2017",
+   "to": "cond_heap_leaching_reextraction_acid",
+   "type": "OPERATES_AT_CONDITION"
+  },
+  {
+   "from": "exp_heap_leaching_copper_cold_2017",
+   "to": "cond_heap_leaching_re_extract_cu",
+   "type": "PRODUCES_OUTPUT"
+  },
+  {
+   "from": "exp_heap_leaching_copper_cold_2017",
+   "to": "pub_heap_leaching_cold_climate",
+   "type": "DESCRIBED_IN"
+  },
+  {
+   "from": "pub_heap_leaching_cold_climate",
+   "to": "person_kuznetsov",
+   "type": "AUTHORED_BY"
+  }
+ ],
+ "synonyms": {
+  "электроэкстракция": "electrowinning",
+  "ПВП": "печь взвешенной плавки",
+  "печь взвешенной плавки": "fluidized bed furnace",
+  "МПГ": "platinum group metals",
+  "РО": "reverse osmosis",
+  "ЭД": "electrodialysis",
+  "IX": "ion exchange",
+  "METTOP-BRX": "технология параллельных потоков",
+  "SAVMIN": "процесс осаждения гипса-эттрингита-карбонизации",
+  "HDS": "процесс высокоплотного шлама"
+ }
+}

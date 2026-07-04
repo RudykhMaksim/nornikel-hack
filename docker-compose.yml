@@ -1,0 +1,15 @@
+services:
+  neo4j:
+    image: neo4j:5-community
+    container_name: mining-rd-neo4j
+    ports:
+      - "7475:7474" # веб-интерфейс браузера через HTTP
+      - "7688:7687" # протокол Bolt
+    environment:
+      - NEO4J_AUTH=neo4j/mining-rd-2026
+      - NEO4J_dbms_memory_pagecache_size=512m
+    volumes:
+      - neo4j_data:/data
+
+volumes:
+  neo4j_data:

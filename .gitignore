@@ -1,0 +1,8 @@
+__pycache__/
+*.pyc
+.pytest_cache/
+data/audit_log.jsonl
+data/annotations.json
+data/version_history.jsonl
+data/ingestion_history.jsonl
+.swyaz/

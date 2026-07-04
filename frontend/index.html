@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Граф знаний горно-металлургической отрасли</title>
+<link rel="stylesheet" href="style.css" />
+<script src="https://unpkg.com/vis-network@9.1.9/standalone/umd/vis-network.min.js"></script>
+</head>
+<body>
+<header>
+  <h1>Граф знаний горно-металлургической отрасли</h1>
+  <div class="topbar">
+    <label>Роль:
+      <select id="roleSelect"></select>
+    </label>
+  </div>
+</header>
+
+<nav class="tabs">
+  <button class="tab-btn active" data-tab="search">Поиск</button>
+  <button class="tab-btn" data-tab="compare">Сравнение</button>
+  <button class="tab-btn" data-tab="gaps">Пробелы в знаниях</button>
+  <button class="tab-btn" data-tab="dashboard">Дашборд</button>
+  <button class="tab-btn" data-tab="glossary">Справочник</button>
+</nav>
+
+<main>
+
+<section id="tab-search" class="tab-panel active">
+  <div class="examples">
+    <span>Примеры запросов:</span>
+    <button class="example-btn" data-q="Какие методы обессоливания воды подходят для обогатительной фабрики, если исходная вода содержит сульфаты, хлориды, Ca, Mg, Na по 200-300 мг/л, а требуемый сухой остаток - не более 1000 мг/дм3?">Обессоливание воды</button>
+    <button class="example-btn" data-q="Какие технические решения организации циркуляции католита при электроэкстракции никеля описаны в мировой практике, и какая скорость потока считается оптимальной?">Циркуляция католита Ni</button>
+    <button class="example-btn" data-q="Покажите все эксперименты и публикации по распределению Au, Ag и МПГ между медным/никелевым штейном и шлаком за последние 5 лет">Au/Ag/МПГ в штейне/шлаке</button>
+    <button class="example-btn" data-q="Какие способы закачки шахтных вод в глубокие горизонты применялись в России и за рубежом?">Закачка шахтных вод</button>
+  </div>
+
+  <div class="search-row">
+    <input id="queryInput" type="text" placeholder="Задайте вопрос на естественном языке..." />
+    <button id="searchBtn">Найти</button>
+  </div>
+
+  <div class="filters">
+    <label><input type="checkbox" class="geoFilter" value="RU" /> Отечественная практика (RU)</label>
+    <label><input type="checkbox" class="geoFilter" value="International" /> Мировая практика</label>
+    <label>Год с: <input id="yearFrom" type="number" style="width:80px" /></label>
+    <label>по: <input id="yearTo" type="number" style="width:80px" /></label>
+  </div>
+  <div class="filters">
+    <span>Достоверность:</span>
+    <label><input type="checkbox" class="confFilter" value="verified" /> Подтверждено</label>
+    <label><input type="checkbox" class="confFilter" value="probable" /> Вероятно</label>
+    <label><input type="checkbox" class="confFilter" value="hypothesis" /> Гипотеза</label>
+  </div>
+
+  <div id="searchStatus" class="status"></div>
+
+  <div id="resultsArea" class="results-area" style="display:none">
+    <div class="results-col">
+      <div id="parsedBox" class="box"></div>
+      <div id="contradictionsBox" class="box"></div>
+      <div id="consensusBox" class="box"></div>
+      <div id="gapsBox" class="box"></div>
+      <div id="recommendationsBox" class="box"></div>
+      <div id="sectionsBox"></div>
+      <div class="export-row">
+        <button id="exportMd">Экспорт Markdown</button>
+        <button id="exportJsonld">Экспорт JSON-LD</button>
+        <button id="exportPdf">Экспорт PDF</button>
+      </div>
+    </div>
+    <div class="graph-col">
+      <h3>Граф связей</h3>
+      <div id="graphViz"></div>
+    </div>
+  </div>
+</section>
+
+<section id="tab-compare" class="tab-panel">
+  <p>Выберите 2-4 сущности (процессы/оборудование) для сравнения:</p>
+  <select id="compareSelect" multiple size="10"></select>
+  <button id="compareBtn">Сравнить</button>
+  <div id="compareResult"></div>
+</section>
+
+<section id="tab-gaps" class="tab-panel">
+  <p>Автоматически выявленные комбинации «материал–процесс–условие», не подтверждённые ни одним экспериментом одновременно:</p>
+  <div id="gapsList"></div>
+</section>
+
+<section id="tab-dashboard" class="tab-panel">
+  <div id="dashboardArea"></div>
+</section>
+
+<section id="tab-glossary" class="tab-panel">
+  <div id="glossaryArea"></div>
+</section>
+
+</main>
+
+<script src="app.js"></script>
+</body>
+</html>
